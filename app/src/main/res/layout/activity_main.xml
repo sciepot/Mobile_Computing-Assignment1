@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/upload_button_text" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="@string/delete_button_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/wardriving_button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="@string/wardriving_button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/localization_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/localization_button_text"
+        android:textSize="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/map_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/upload_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/ask_popup"
+        android:layout_width="240dp"
+        android:layout_height="150dp"
+        android:src="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:id="@+id/ask_perm"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_perm_text"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/yes_button_scan"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text = "@string/yes_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/no_button_scan"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text = "@string/cancel_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="220dp" />
+</RelativeLayout>

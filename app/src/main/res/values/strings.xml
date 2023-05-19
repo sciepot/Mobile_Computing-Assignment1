@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">localization</string>
+    <string name="upload_button_text">Upload Map</string>
+    <string name="delete_button_text">Delete Map</string>
+    <string name="wardriving_button_text">Wardiving</string>
+    <string name="localization_button_text">Localization</string>
+    <string name="ask_perm_text">What would like to scan?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="text_b">Would you like to save?</string>
+    <string name="text_a">Scanned APs</string>
+</resources>
